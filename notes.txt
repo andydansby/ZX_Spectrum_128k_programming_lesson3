@@ -1,0 +1,47 @@
+compiled_BANK_00.bin
+compiled_CODE.bin
+compiled_UNASSIGNED.bin
+compiled_UNCONTENDED.bin
+
+__code_crt_main_head
+
+
+
+There are several sections the compiler
+puts stuff into:
+
+codeseg = code
+constseg = constant data
+bssseg = uninitialized variables
+dataseg = initialized variables
+
+You have to change the destination section
+for each of those segments on the zcc line.
+
+zsdcc can only do codeseg and constseg so
+the recommended thing to do is declare anything
+destined for bss or data sections in asm where
+they can be placed properly.
+
+example of c declarations:
+
+extern int a;   // bss
+extern int b = 10;   // data
+
+Then in a separate asm file define the variables
+placed in a specific section:
+
+SECTION bss_name
+PUBLIC _a
+_a : defs 2
+
+SECTION data_name
+PUBLIC _b
+_b : defw 10
+
+That should be "extern int b;".
+The C declarations are not creating space -
+they only tell the compiler the variables
+exist and are defined elsewhere.
+
+
