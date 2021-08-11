@@ -1,0 +1,10 @@
+Object  file contended.o at $0000: Z80RMF12
+  Name: contended
+  Section bss_compiler: 0 bytes
+  Section code_compiler: 0 bytes
+  Section CONTENDED: 12 bytes
+  Symbols:
+    G A $0000 _Variable_in_contended (section CONTENDED) (file ramlow.asm:28)
+    G A $0001 _Border_color (section CONTENDED) (file ramlow.asm:32)
+    G A $0002 _border_Change_contended1 (section CONTENDED) (file ramlow.asm:37)
+    G A $0008 _border_Change_contended2 (section CONTENDED) (file ramlow.asm:44)
