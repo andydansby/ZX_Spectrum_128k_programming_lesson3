@@ -1,7 +1,7 @@
 Object  file uncontended.o at $0000: Z80RMF12
   Name: uncontended
   Section data_compiler: 8 bytes
-  Section code_compiler: 672 bytes
+  Section code_compiler: 669 bytes
   Section rodata_compiler: 288 bytes
   Section bss_compiler: 0 bytes
   Section code_user: 4 bytes
@@ -20,8 +20,8 @@ Object  file uncontended.o at $0000: Z80RMF12
     G A $0012 _multiply2numbers (section code_compiler) (file uncontended.c:64)
     G A $0026 _subtract2numbers (section code_compiler) (file uncontended.c:83)
     G A $003B _Border_test (section code_compiler) (file uncontended.c:102)
-    G A $0124 _main (section code_compiler) (file uncontended.c:217)
-    G A $0000 _border_Change_contended3 (section code_user) (file uncontended_section.asm:12)
+    G A $0121 _main (section code_compiler) (file uncontended.c:213)
+    G A $0000 _border_Change_uncontended (section code_user) (file uncontended_section.asm:12)
     G A $0000 _xyzzy2 (section rodata_user) (file uncontended_section.asm:22)
   Externs:
     U         l_mult
@@ -34,4 +34,4 @@ Object  file uncontended.o at $0000: Z80RMF12
     U         _Border_color
     U         _border_Change_contended1
     U         _border_Change_contended2
-    U         _border_Change_contended4
+    U         _border_Change_RAM0
