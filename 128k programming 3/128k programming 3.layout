@@ -7,37 +7,14 @@
 			<Cursor1 position="51" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="..\UNCONTENDED\externs.h" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="..\UNCONTENDED\uncontended.asm" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="809" topLine="14" />
-		</Cursor>
-		<Folding>
-			<Collapse line="10" />
-		</Folding>
-	</File>
-	<File name="..\CONTENDED\contended.c" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="270" topLine="0" />
+			<Cursor1 position="927" topLine="6" />
 		</Cursor>
 	</File>
-	<File name="..\UNCONTENDED\uncontended.c" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="..\UNCONTENDED\uncontended.h" open="1" top="1" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="1374" topLine="36" />
-		</Cursor>
-	</File>
-	<File name="..\UNCONTENDED\mmap.inc" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="764" topLine="21" />
-		</Cursor>
-	</File>
-	<File name="..\notes.txt" open="0" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="975" topLine="26" />
-		</Cursor>
-	</File>
-	<File name="..\CONTENDED\ramlow.asm" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1248" topLine="23" />
+			<Cursor1 position="1496" topLine="65" />
 		</Cursor>
 	</File>
 	<File name="..\compile.bat" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -45,14 +22,9 @@
 			<Cursor1 position="0" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="..\UNCONTENDED\rammain.bat" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="..\UNCONTENDED\externs.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="447" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="..\RAM0\ram0Z.asm" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1070" topLine="15" />
+			<Cursor1 position="521" topLine="9" />
 		</Cursor>
 	</File>
 	<File name="..\UNCONTENDED\variables.h" open="0" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -60,19 +32,44 @@
 			<Cursor1 position="217" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="..\UNCONTENDED\uncontended.asm" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="..\CONTENDED\ramlow.asm" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="927" topLine="6" />
+			<Cursor1 position="1189" topLine="26" />
 		</Cursor>
 	</File>
-	<File name="..\UNCONTENDED\uncontended_section.asm" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="..\UNCONTENDED\rammain.bat" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="328" topLine="0" />
+			<Cursor1 position="447" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="..\UNCONTENDED\uncontended.h" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="..\UNCONTENDED\uncontended_section.asm" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="1589" topLine="68" />
+			<Cursor1 position="252" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\UNCONTENDED\mmap.inc" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="675" topLine="21" />
+		</Cursor>
+	</File>
+	<File name="..\notes.txt" open="0" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="975" topLine="26" />
+		</Cursor>
+	</File>
+	<File name="..\RAM0\ram0Z.asm" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1058" topLine="15" />
+		</Cursor>
+	</File>
+	<File name="..\UNCONTENDED\uncontended.c" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="108" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\CONTENDED\contended.c" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="270" topLine="0" />
 		</Cursor>
 	</File>
 </CodeBlocks_layout_file>
