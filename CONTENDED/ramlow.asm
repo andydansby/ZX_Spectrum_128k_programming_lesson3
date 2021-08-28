@@ -36,6 +36,7 @@ _Border_color:
 PUBLIC _border_Change_contended1
 _border_Change_contended1:
     ld a, (_Border_color)
+    and 7                   ; mask with 0000 0111
     out (254), a
 ret
 
@@ -43,5 +44,6 @@ ret
 PUBLIC _border_Change_contended2
 _border_Change_contended2:
     ld a, l     ;contents of l are loaded into a
+    and 7       ; mask with 0000 0111
     out (254), a
 ret
