@@ -11,6 +11,7 @@ SECTION code_user
     PUBLIC _border_Change_uncontended
 _border_Change_uncontended:
     ld a, l     ;contents of l are loaded into a
+    and 7       ; mask with 0000 0111
     out (254), a
 ret
 
