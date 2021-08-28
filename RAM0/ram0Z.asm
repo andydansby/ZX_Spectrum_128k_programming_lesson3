@@ -32,5 +32,6 @@ SECTION BANK_00
     PUBLIC _border_Change_RAM0
 _border_Change_RAM0:
     ld a, l     ;contents of l are loaded into a
+    and 7       ; mask with 0000 0111
     out (254), a
 ret
